@@ -15,12 +15,18 @@ function App() {
       </div>
 
       {/* 表示切り替えのプルダウン */}
-      <div className='status_filter'>
-        <p className='filter'>フィルター</p>
-        <select className='status' name="status">
+      <div className='filter'>
+        <p className='filter_title'>フィルター</p>
+        <select className='filter_status status' name="sort_status">
           <option value="incomplete">未完了</option>
           <option value="launch">着手</option>
           <option value="complete">完了</option>
+        </select>
+
+      {/* ソートのプルダウン */}
+        <select className='sort_status status' name="sort_status">
+          <option value="id">id</option>
+          <option value="name">名前</option>
         </select>
       </div>
 

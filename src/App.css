@@ -42,13 +42,13 @@ p {
   margin: 0 0 0 10px;
 }
 
-.status_filter {
+.filter {
   margin-left: 20px;
   border-radius: 5px;
   display: flex;
 }
 
-.filter {
+.filter_title {
   font-size: 1em;
 }
 
