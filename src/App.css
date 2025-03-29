@@ -38,6 +38,20 @@
   }
 }
 
+p {
+  margin: 0 0 0 10px;
+}
+
+.status_filter {
+  margin-left: 20px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.filter {
+  font-size: 1em;
+}
+
 .button {
   margin: 10px;
   border:solid thin navy;
@@ -55,6 +69,10 @@
 
 .edit_button{
   background-color: #00CC99;
+}
+
+.summary {
+  margin-left: 10px;
 }
 
 input {
