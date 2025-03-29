@@ -45,7 +45,8 @@
 }
 
 .delete_button{
-  background-color: red;  
+  background-color: red;
+  margin-left: 0;
 }
 
 .add_button{

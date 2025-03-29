@@ -13,6 +13,11 @@ function App() {
       <ul>
         <li>
           <span>タイトル</span>
+          <select className='status' name="status">
+            <option value="incomplete">未完了</option>
+            <option value="launch">着手</option>
+            <option value="complete">完了</option>
+          </select>
           <button className='button edit_button'>編集</button>
           <button className='button delete_button'>削除</button>
         </li>
