@@ -40,9 +40,31 @@
 
 .button {
   margin: 10px;
+  border:solid thin navy;
+  border-radius: 5px;
 }
 
-.input {
+.delete_button{
+  background-color: red;  
+}
+
+.add_button{
+  background-color: #00CCFF;
+}
+
+.edit_button{
+  background-color: #00CC99;
+}
+
+input {
+  border-radius: 5px;
+}
+
+.add_input {
+  margin: 30px 0 0 30px;
+}
+
+.edit_input {
   margin: 30px 0 0 30px;
 }
 
